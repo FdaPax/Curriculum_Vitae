@@ -28,6 +28,11 @@
   padding: 10rem 4rem;
   margin: 0;
 }
+@media only screen and (min-width: 768px) {
+  .row {
+    padding: 10rem 4rem 10rem 17rem;
+  }
+}
 
 /* Columns */
 .col-xs-12 {

@@ -9831,6 +9831,11 @@ hr {
   margin: 0;
 }
 
+@media only screen and (min-width: 768px) {
+  .row {
+    padding: 10rem 4rem 10rem 17rem;
+  }
+}
 /* Columns */
 .col-xs-12 {
   grid-column: span 12;
@@ -10090,6 +10095,8 @@ input:checked ~ .navigation__container {
     margin: 0;
     height: 100%;
     padding: 10rem 1rem;
+    position: fixed;
+    z-index: 100;
   }
   .navigation__container {
     max-height: 100%;
