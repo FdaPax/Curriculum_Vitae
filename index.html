@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Curriculum Vitae</title>
+
+    <meta name="Author" content="Fernanda Paz">
+    <meta name="Description" content="Curriculum">
+    <meta name="Keywords" content="Curriculum Vitae">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <div class="body__container">
+
+        <header class="header">
+            <nav class="navigation">
+                <div class="navigation__image">
+                    <img class="thumbnail" src="assets/img/perfil.jpg" alt="Photo">
+                </div>
+                <div class="collapsible col-xs-12">
+                    <input type="checkbox" id="menu">
+                    <label for="menu"><i class="fas fa-bars fa-2x"></i></label>
+                    <div class="navigation__container">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a href="#">ACERCA DE MI</a></li>
+                            <li class="navigation__item"><a href="#">EXPERIENCIA</a></li>
+                            <li class="navigation__item"><a href="#">EDUCACIÓN</a></li>
+                            <li class="navigation__item"><a href="#">HABILIDADES</a></li>
+                            <li class="navigation__item"><a href="#">CONTACTO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main row">
+            <div class="head col-xs-12">
+                <h1 class="head__title">FERNANDA ANDREA PAZ ACEVEDO</h1>
+                <p class="head__subtitle">CAMINO EL SOL, PARCELA 3 | +56 9 81592109 |
+                    <span>fdapaz@gmail.com</span>
+                </p>
+                <p class="head__text">Taciti iaculis primis suscipit sollicitudin aptent orci various, sapien eget
+                    ultrices
+                    fames vivamus interdum pellentesque, tempor cras quis lacinia accumsan eu. Justo phasellus dictumst
+                    nullamuismod pulvinar ut potenti facillisi mattis id, sed lectus.</p>
+                <div class="head__icons">
+                    <a href="#" class="icon"><i class="fab fa-github-square fa-3x"></i></a>
+                    <a href="#" class="icon"><i class="fab fa-facebook-square fa-3x"></i></a></i>
+                    <a href="#" class="icon"><i class="fab fa-twitter-square fa-3x"></i></a>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+            <div class="experience col-xs-12">
+                <div class="experience__section">
+                    <h2 class="experience__title">EXPERIENCIA</h2>
+                    <div class="experience__container">
+                        <h4 class="experience__name">PRODUCTORA INDEPENDIENTE</h4>
+                        <p class="experience__date">2017 - 2018</p>
+                    </div>
+                </div>
+                <p class="experience__position">Productora</p>
+                <p class="experience__text">Taciti iaculis primis suscipit sollicitudin aptent orci various, sapien
+                    eget
+                    ultrices fames vivamus interdum pellentesque, tempor cras quis lacinia accumsan eu. Justo
+                    phasellus
+                    dictumst nullamuismod pulvinar ut potenti facillisi mattis id, sed lectus.</p>
+            </div>
+
+            <hr class="col-xs-12">
+
+            <div class="education col-xs-12">
+                <div class="education__section">
+                    <h2 class="education__title">EDUCACIÓN</h2>
+                    <div class="education__container">
+                        <h4 class="education__institution">DESAFÍO LATAM</h4>
+                        <p class="education__date">2019</p>
+                    </div>
+                    <p class="education__area">Diseño UI/UX</p>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+
+            <div class="skills col-xs-12">
+                <div class="skills__section">
+                    <h2 class="skills__title">HABILIDADES</h2>
+                    <h4 class="skills__name">Herramientas</h4>
+                    <p class="skills__text">Wordpress, jQuery, Bootstrap</p>
+                </div>
+            </div>
+            <hr class="col-xs-12">
+
+            <div class="contact col-xs-12">
+                <h2 class="contact__title">CONTACTO</h2>
+                <p class="contact__text">Taciti iaculis primis suscipit sollicitudin aptent orci varius, sapien eget ultices fames vivamos interdum pallentesque, tempor cras quis lacinia accumsan eu.</p>
+                <p class="contact__subtitle">Nombre</p>
+                <input type="" class="contact__input" placeholder="Escribe tu nombre">
+                <p class="contact__subtitle">Correo</p>
+                <input type="text" class="contact__input" placeholder="Escribe tu correo electrónico">
+                <p class="contact__subtitle">Mensaje</p>
+                <input type="text" class="contact__input contact__input--large" placeholder="Escribe tu mensaje">
+
+
+            </div>
+        </main>
+    </div>
+
+    <!--Dependencias de JavaScript para Bootstrap -->
+    <!-- Jquery V.3.3.1 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-
+    q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper JS V.1.14.7 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS V.4.3.1 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

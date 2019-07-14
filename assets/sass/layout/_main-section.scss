@@ -1,0 +1,109 @@
+.main {
+  color: $dark-blue;
+}
+.head {
+  &__title {
+    margin-bottom: 0.5rem;
+    color: $dark-blue;
+  }
+  &__subtitle {
+    margin-bottom: 5rem;
+    span {
+      color: $dark;
+    }
+  }
+  &__text {
+    margin-bottom: 3rem;
+    font-weight: $light;
+    color: $light-gray;
+  }
+
+  a {
+    color: $dark-blue;
+    margin-right: 0.8rem;
+  }
+}
+
+hr {
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.experience {
+  &__title {
+    margin: 3rem 0;
+    color: $dark-blue;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__position {
+    margin-bottom: 2rem;
+    font-weight: $light;
+  }
+  &__text {
+    margin-bottom: 3rem;
+    font-weight: $light;
+    color: $light-gray;
+  }
+}
+
+.education {
+  &__title {
+    margin: 3rem 0;
+    color: $dark-blue;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__area {
+    font-weight: $light;
+    color: $light-gray;
+  }
+}
+.skills {
+  &__title {
+    margin: 3rem 0;
+    color: $dark-blue;
+  }
+  &__name {
+    margin-bottom: 2rem;
+  }
+  &__text {
+    font-weight: $light;
+    color: $light-gray;
+  }
+}
+.contact {
+  &__title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: $dark-blue;
+  }
+  &__text {
+    margin-bottom: 3rem;
+    font-weight: $light;
+    color: $light-gray;
+  }
+  &__subtitle {
+    margin-bottom: 1rem;
+  }
+  &__input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.1);
+    font-weight: $light;
+    &--large {
+      padding-bottom: 10rem;
+    }
+  }
+}
